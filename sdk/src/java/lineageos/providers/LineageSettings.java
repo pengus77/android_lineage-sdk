@@ -2922,6 +2922,13 @@ public final class LineageSettings {
          */
         public static final String LOCKSCREEN_VISUALIZER_ENABLED = "lockscreen_visualizer";
 
+	/**
+         * Wheter or not allow auto face unlock
+         * Boolean setting. 0 = off, 1 = on.
+         * @hide
+         */
+        public static final String AUTO_FACE_UNLOCK = "auto_face_unlock";
+
         /**
          * Whether to show media art on lockscreen
          * Boolean setting. 0 = off, 1 = on.
@@ -3136,7 +3143,8 @@ public final class LineageSettings {
                 LineageSettings.Secure.APP_PERFORMANCE_PROFILES_ENABLED,
                 LineageSettings.Secure.QS_LOCATION_ADVANCED,
                 LineageSettings.Secure.LOCKSCREEN_VISUALIZER_ENABLED,
-                LineageSettings.Secure.LOCK_PASS_TO_SECURITY_VIEW
+                LineageSettings.Secure.LOCK_PASS_TO_SECURITY_VIEW,
+                LineageSettings.Secure.AUTO_FACE_UNLOCK
         };
 
         /**

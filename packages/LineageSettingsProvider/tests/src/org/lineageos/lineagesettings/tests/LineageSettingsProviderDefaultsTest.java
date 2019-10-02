@@ -89,6 +89,9 @@ public class LineageSettingsProviderDefaultsTest extends AndroidTestCase {
         SECURE_SETTINGS_DEFAULTS.add(new Setting(
                 LineageSettings.Secure.ADVANCED_MODE,
                 "R.bool.def_advanced_mode"));
+	SECURE_SETTINGS_DEFAULTS.add(new Setting(
+                LineageSettings.Secure.AUTO_FACE_UNLOCK,
+                "R.bool.def_auto_face_unlock"));
         SECURE_SETTINGS_DEFAULTS.add(new Setting(
                 LineageSettings.Secure.QS_USE_MAIN_TILES,
                 "R.bool.def_sysui_qs_main_tiles"));

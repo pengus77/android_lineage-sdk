@@ -118,4 +118,10 @@
     -->
     <integer name="def_clock_position">2</integer>
 
+    <!-- Default for auto face unlock
+         * true: enabled
+         * false: disabled
+    -->
+    <bool name="def_auto_face_unlock">false</bool>
+
 </resources>
